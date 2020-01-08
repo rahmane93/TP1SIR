@@ -64,7 +64,12 @@ public class JXBusyLabelTest extends JFrame implements ActionListener {
 			bLabel1.setBusy(false);
 		}
 	}
-
+	public void bonjour(String name) {
+	int x;
+		System.out.println("bonjour oklin");
+		System.out.println("bonjour oklin");
+	}
+	
 	public static void main(String[] args) {
 		new JXBusyLabelTest();
 	}
